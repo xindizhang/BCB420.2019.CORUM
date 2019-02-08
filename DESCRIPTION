@@ -1,0 +1,19 @@
+Package: BCB420.2019.CORUM
+Type: Package
+Title: Workflow to work with CORUM database
+Version: 1.0
+Date: 2019-02-05
+Authors@R: c(
+    person("Xindi", "Zhang", email = "xindi.zhang@mail.utoronto.ca", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-1134-6758"))
+    )
+Description: A pacakge to work with CORUM, a dataset for protein complex.
+             It shows the workflow to download network data form [the CORUM database]
+             (https://mips.helmholtz-muenchen.de/corum/), map annotated human protein 
+             complex data to [HGNC](https://www.genenames.org/) symbols, update the 
+             outdated symbols and provide examples for statistic cmputation of the databases.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    testthat
+RoxygenNote: 6.1.1
